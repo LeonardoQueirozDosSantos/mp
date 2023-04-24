@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.containerBg {
+    background-color: rgb(100, 100, 100);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerPlayer {
+    background-color: rgb(168, 168, 168);
+    width: 40vh;
+    height: 70vh;
+    box-shadow: 1px 1px 5px 2px rgb(44, 44, 44);
+    border-style: outset; 
+    border-color: rgb(220, 220, 220);
+}
+
+.containerID {
+    background-color: rgb(168, 168, 168);
+    height: 35vh;
+    margin: 15px 15px 0px;
+}
+
+.artistPicture {
+    background-color: black;
+    height: 70px;
+    max-height: 120px;
+    width: 70px;
+    max-width: 120px;
+}
+
+.containerFunctions {
+    background-color: red;
+    height: 10vh;
+    margin: 15px;
+}
+
+.containerSlider {
+    background-color: aqua;
+    height: 5vh;
+    margin: 15px
+    }
+
+.containerPlayerButton {
+    background-color: white;
+    height: 11.5vh;
+    margin: 15px
+}
